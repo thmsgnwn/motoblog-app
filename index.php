@@ -6,16 +6,18 @@ include_once('views/header.php');
 
 
     <!-- Navbar -->
+
     <div class="jumbotron text-center">
-      <h1>
-    <img class="text-left" src="img/download.jpg" width="50" alt="">
-        <b>One-Racing Company</b></h1>
+
+      <h1><b>One-Racing Company</b></h1>
       <!-- <h5>Admin-Page</h5> -->
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light fix-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-white ps-3 mx-5 " href="index.php?page=dash">Home Dashboard</a>
+    <img class="text-left mx-3" src="img/logo.png" width="50" alt="">
+
+        <a class="navbar-brand text-white ps-3  " href="index.php?page=dash">Home</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -87,7 +89,7 @@ include_once('views/header.php');
           <a href="index.php?page=event" class="list-group-item btn rounded-pill  btn-outline-light">
             Event
           </a>
-          <a href="index.php?page=gallery" class="list-group-item btn rounded-pill  btn-outline-light">
+          <a href="index.php?page=galeri" class="list-group-item btn rounded-pill  btn-outline-light">
             Galeri Foto
           </a>
           <a href="index.php?page=klien" class="list-group-item btn rounded-pill  btn-outline-light">
@@ -125,7 +127,7 @@ include_once('views/header.php');
 
         
         //   Data Gallery
-        if ($page == 'galeri') include 'pages/list_galeri.php';
+        if ($page == 'galeri') include 'public/pages/gallery.php';
         if ($page == 'entrig') include 'pages/entriGaleri.php';
         if ($page == 'editg') include 'pages/editGaleri.php';
 

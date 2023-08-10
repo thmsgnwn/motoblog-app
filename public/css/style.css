@@ -6,6 +6,9 @@ body {
   background-color: lightgoldenrodyellow;
   padding: 20px;
 }
+/* .jumbotron .h1 {
+  font-size: 200px;
+} */
 .navbar {
   background-color: rgb(138, 43, 226);
   position: sticky;

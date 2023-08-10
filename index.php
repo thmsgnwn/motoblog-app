@@ -20,7 +20,6 @@ include_once('views/header.php');
     <nav class="navbar navbar-expand-lg navbar-light fix-top">
       <div class="container-fluid">
     <img class="text-left mx-3" src="img/mt.jpg" width="35" alt="">
-
         <a class="navbar-brand text-white ps-3  " href="index.php?page=dash">Home</a>
         <button
           class="navbar-toggler"
@@ -87,7 +86,7 @@ include_once('views/header.php');
     <div class="row g-0 text-center">
       <div class="col-6 col-md-2 layout pe-2">
         <ul class="list-group-flush">
-          <a href="index.php?page=articles" class="list-group-item btn m-0.2 rounded-pill btn-outline-light">
+          <a href="index.php?page=article" class="list-group-item btn m-0.2 rounded-pill btn-outline-light">
             Artikel
           </a>
           <a href="index.php?page=event" class="list-group-item btn rounded-pill  btn-outline-light">
@@ -133,11 +132,17 @@ include_once('views/header.php');
         //   Data Gallery
         if ($page == 'galeri') include 'public/pages/gallery.php';
         if ($page == 'entrig') include 'pages/entriGaleri.php';
-        if ($page == 'editg') include 'pages/editGaleri.php';
+        if ($page == 'news3') include 'public/news/article3.php';
+        if ($page == 'mt15') include 'public/pages/galone.php';
+        if ($page == 'mt25') include 'public/pages/galtwo.php';
+        if ($page == 'mt09') include 'public/pages/galthree.php';
 
 
         // Data Artikel
-        if ($page == 'articles') include 'public/pages/article.php';
+        if ($page == 'article') include 'public/pages/article.php';
+        if ($page == 'news1') include 'public/news/article1.php';
+        if ($page == 'news2') include 'public/news/article2.php';
+        if ($page == 'news3') include 'public/news/article3.php';
 
         // Data Event
         if ($page == 'event') include 'public/pages/event.php';
@@ -152,8 +157,7 @@ include_once('views/header.php');
         // Sign In dan Sign Up for new member
         if ($page == 'signup') include 'app/register.php';
 
-
-          
+            
         ?>
       </div>
     <!-- end layout -->

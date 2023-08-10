@@ -9,13 +9,17 @@ include_once('views/header.php');
 
     <div class="jumbotron text-center">
 
-      <h1><b>One-Racing Company</b></h1>
+      <h1>
+    <img class="text-left mx-3" src="img/logo.png" width="90" alt="">
+
+        <b>Yamaha MT Indonesia Company</b>
+      </h1>
       <!-- <h5>Admin-Page</h5> -->
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light fix-top">
       <div class="container-fluid">
-    <img class="text-left mx-3" src="img/logo.png" width="50" alt="">
+    <img class="text-left mx-3" src="img/mt.jpg" width="35" alt="">
 
         <a class="navbar-brand text-white ps-3  " href="index.php?page=dash">Home</a>
         <button
@@ -98,11 +102,11 @@ include_once('views/header.php');
           <a href="public/login_user.php" class="list-group-item btn rounded-pill  btn-outline-light">
             <b>Log In</b>
           </a>
-          <a href="app/register.php" class="list-group-item btn rounded-pill btn-outline-light ms-5 ps-5">
+          <a href="index.php?page=signup" class="list-group-item btn rounded-pill btn-outline-light ms-5 ps-5">
             Sign In
           </a>
-          <a href="app/register.php" class="list-group-item btn rounded-pill btn-outline-light ms-5 ps-5">
-            Sign Out
+          <a href="index.php?page=signup" class="list-group-item btn rounded-pill btn-outline-light ms-5 ps-5">
+            Sign Up
           </a>
         </ul>
       </div>
@@ -144,6 +148,10 @@ include_once('views/header.php');
         if ($page == 'product') include 'public/pages/product.php';
         if ($page == 'contact') include 'public/pages/contact.php';
         if ($page == 'about') include 'public/pages/about.php';
+
+        // Sign In dan Sign Up for new member
+        if ($page == 'signup') include 'app/register.php';
+
 
           
         ?>

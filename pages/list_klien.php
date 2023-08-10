@@ -1,11 +1,8 @@
-<h1 class="mt-2 mb-3 mx-2"> Data Kelola Klien</h1>
+<h2 class="mt-2 mb-3 mx-2">Data Klien Perusahaan Kami</h2>
 
 <div class="container">
     <div class="row">
         <div class="col">
-
-        <a href="admin.php?page=entrik"><input class="submit btn btn-primary mb-3 p-1" name="submit" value="Tambah Data Klien"></a>
-        <a href="report/laporanBuku.php"><input class="submit btn btn-secondary mb-3 p-1" name="submit" value="Cetak Data"></a>
 
             <table border="1px" class="table table-bordered table-striped ">
                 <tr>

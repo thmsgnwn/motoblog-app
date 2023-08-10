@@ -43,7 +43,7 @@ include_once "views/header.php";
 
   <div class="oneform">
     <div class="form">
-      <h1 class="title">Log In - SipusOne</h1>
+      <h1 class="title">Log In - Admin</h1>
 
         <div class="form__div">
           <input type="text" class="inp" name="username"/>

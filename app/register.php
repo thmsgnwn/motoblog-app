@@ -1,6 +1,6 @@
 <?php
 
-require_once "../db.php";
+require_once "db.php";
 require_once "fungsi_user.php";
 
 
@@ -32,6 +32,8 @@ if( isset($_POST['submit']) ) {
 // include_once "view/header.php";
 
 ?>
+
+<h2>Daftar Member Baru Club </h2>
 
 <form action="register.php" method="post">
         <label for="">Nama</label><br>

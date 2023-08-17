@@ -95,14 +95,14 @@ include_once('views/header.php');
       <div class="col-6 col-md-3 layout pe-2">
         <ul class="list-group-flush">
           <a href="admin.php?page=article" class="list-group-item btn m-0.2 rounded-pill btnlist btn-outline-light">
-            Kelola Artikel
+            Artikel
           </a>
           
           <a href="admin.php?page=event" class="list-group-item btn rounded-pill btnlist btn-outline-light">
-            Kelola Event
+            Event
           </a>
           <a href="admin.php?page=galeri" class="list-group-item btn rounded-pill btnlist btn-outline-light">
-            Kelola Galeri
+            Galeri Foto
           </a>
           <hr>
           <br>
@@ -131,7 +131,8 @@ include_once('views/header.php');
 
         //   Data Produk
           if ($page == 'produk') include 'pages/list_produk.php';
-          if ($page == 'entrip') include 'entriProduk.php';
+          if ($page == 'entrip') include 'pages/entriProduk.php';
+          if ($page == 'editp') include 'pages/editProduk.php';
          
 
         //   Data Klien
@@ -140,10 +141,10 @@ include_once('views/header.php');
         if ($page == 'editk') include 'pages/editKlien.php';
 
         
-        //   Data Gallery
+        // //   Data Gallery
         if ($page == 'galeri') include 'pages/list_galeri.php';
-        if ($page == 'entrig') include 'pages/entriGaleri.php';
-        if ($page == 'editg') include 'pages/editGaleri.php';
+        // if ($page == 'entrig') include 'pages/entriGaleri.php';
+        // if ($page == 'editg') include 'pages/editGaleri.php';
 
         // Data Artikel
         if ($page == 'article') include 'public/pages/article.php';

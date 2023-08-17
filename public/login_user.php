@@ -55,7 +55,7 @@ include_once "views/header.php";
           <label for="" class="lbl">Password</label>
         </div>
 
-        <input type="submit" class="form__button" name="submit" value="Log In" />
+        <input type="submit" class="form__button" name="submit" value="Sign In" />
 
         <!-- <p>&copy; Thomas Gunawan SipusOne Project 2023 </p> -->
 

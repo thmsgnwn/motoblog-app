@@ -1,49 +1,104 @@
-<h2>Produk Kami</h2>
 
-<div class="container">
-    <div class="row">
-        <div class="col">
 
-            <table border="1px" class="table table-bordered table-striped ">
-                <tr>
-                    <th>No</th>
-                    <th>Kode Seri</th>
-                    <th>Gambar</th>
-                    <th>Nama Produk</th>
-                    <th>Jenis Produk</th>
-                    <th>Harga</th>
-                    <th>Jumlah</th>
-                </tr>
+<h2>
+    Produk Kami
+</h2>
 
-                <?php
+<div class="container text-center">
+  <div class="row">
+    <div class="col"> 
 
-                include_once 'db.php';
-                
-                $query = "SELECT * FROM produk";
-                $ambil = mysqli_query($link, $query);
-                $no=1;
-                while($row=mysqli_fetch_array($ambil)) { ?>
-                    
-                    <tr>
-                      <td><?= $no ?></td>
-                      <td><?= $row['kode_seri'] ?></td>
-                      <td> <img src="img/download.jpg" width="50"></td>
-                      <td><?= $row['nama_produk'] ?></td>
-                      <td><?= $row['jenis_produk'] ?></td>
-                      <td><?= $row['harga'] ?></td>
-                      <td><?= $row['jumlah'] ?></td>
-                    </tr>
-
-                
-            <?php
-                $no++;
-
-            }
-            
-            ?>
-
-            </table>
+      <div class="card" style="width: 15rem;">
+        <img src="public/img/jok_mt15.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+         <p class="card-text"> 
+          Kode: MT23009 <br> 
+          Nama : Jok MT <br>
+          Harga : Rp.500.000
+        </p>
         </div>
-        
+     </div>
+
     </div>
+    <div class="col">
+
+    <div class="card" style="width: 15rem;">
+        <img src="public/img/knalpot_mt15.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+         <p class="card-text"> 
+          Kode: MT23007 <br> 
+          Nama : Knalpot MT <br>
+          Harga : Rp.2500.000
+        </p>
+        </div>
+     </div>
+
+    </div>
+    <div class="col">
+
+    <div class="card" style="width: 15rem;">
+        <img src="public/img/suspensi_mt09.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+         <p class="card-text"> 
+          Kode: MT23005 <br> 
+          Nama : Suspensi MT <br>
+          Harga : Rp.300.000
+        </p>
+        </div>
+     </div>
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col"> 
+
+      <div class="card" style="width: 15rem;">
+        <img src="public/img/mesin_mt15.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+         <p class="card-text"> 
+          Kode: MT23009 <br> 
+          Nama : Kabel MT <br>
+          Harga : Rp.500.000
+        </p>
+        </div>
+     </div>
+
+    </div>
+    <div class="col">
+
+    <div class="card" style="width: 15rem;">
+        <img src="public/img/knalpot_mt09.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+         <p class="card-text"> 
+          Kode: MT23099 <br> 
+          Nama : Knalpot MT-09 <br>
+          Harga : Rp.3000.000
+        </p>
+        </div>
+     </div>
+
+    </div>
+    <div class="col">
+
+    <div class="card" style="width: 15rem;">
+        <img src="public/img/tangki_mt09.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+         <p class="card-text"> 
+          Kode: MT23005 <br> 
+          Nama : Tangki MT <br>
+          Harga : Rp.300.000
+        </p>
+        </div>
+     </div>
+
+    </div>
+  </div>
+
+
 </div>
+<br><br>
+
+        

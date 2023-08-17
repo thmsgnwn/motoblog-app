@@ -1,6 +1,6 @@
 <?php
 
-include_once 'db.php';
+include_once '../db.php';
 
 $ks  = $_POST['ks'];
 $np   = $_POST['np'];
@@ -12,4 +12,4 @@ $query = "INSERT INTO produk SET kode_seri = '$ks', nama_produk = '$np', jenis_p
 
 mysqli_query($link, $query);
 
-header('Location: admin.php?page=produk');
+header('Location: ../admin.php?page=produk');

@@ -1,10 +1,37 @@
 <h2>Visi </h2>
 <p>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa aperiam ducimus minus ipsum quaerat aliquid, dolorum sit eveniet deserunt corporis ea debitis tempora dolores consectetur quasi dignissimos fuga suscipit neque.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa odio eius possimus quis autem quasi incidunt ducimus, quos commodi inventore beatae magnam quae quidem, optio repellat consequatur quibusdam blanditiis? Suscipit?
+Menjadi perusahaan distributor motor, beserta jasa dan produk pendukungnya yang TERBESAR di indonesia.
+Menjadi perusahaan yang TERPERCAYA dengan didukung oleh :
+<ul>
+    <li>SDM yang handal</li>
+    <li>Sistem pengelolaan keuangan yang solid</li>
+    <li>infrastruktur yang tepat guna</li>
+</ul>
+
 </p>
 <br><br>
 <h2>Misi</h2>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vitae necessitatibus suscipit dolor et! Ex reiciendis optio maxime nihil, nobis ab explicabo unde facere voluptatibus. Sapiente incidunt illo dolorum voluptates!
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel necessitatibus qui a, alias consequatur minima aut explicabo harum natus quaerat corporis voluptatibus reiciendis similique odio eaque ratione aliquam. Nam, quaerat.
-</p>
+<ul>
+    <li>
+    Melakukan terobosan dan analisa untuk pengembangan bisnis dengan membentuk jaringan-jaringan (penjualan, perawatan dan suku cadang ) baru di seluruh indonesia
+    </li>
+    <li>
+    Memastikan terjadinya pertumbuhan penjualan dan pangsa pasar di setiap wilayah operasional
+    </li>
+    <li>
+    Melakukan strategi bisnis perusahaan yang di dukung oleh strategi kebijakan yang optimal
+    </li>
+    <li>
+    Mengembangkan dan menempatkan karyawan sesuai dengan tuntutan kompetensi jabatan sehingga karyawan memiliki kapasitas serta dapat menjalankan tugas-tugas dan tanggung jawabnya dengan baik
+    </li>
+    <li>
+    Menerapkan Standar Prosedur Operasional yang tepat guna, sebagai landasan kerja untuk menghasilkan kinerja yang optimal
+    </li> 
+    <li>
+    Mengembangkan sisten infrastruktur, informasi teknologi serta sumber daya fisik yang tepat guna dan ter-Intergrasi dengan departement terrkait, sesuai standar yang berlaku .
+    </li> 
+    <li>
+    Melakukan audit internal kontrol secara periodik dan objektif
+    </li>
+    
+</ul>

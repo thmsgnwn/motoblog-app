@@ -20,7 +20,7 @@ include_once('views/header.php');
     <nav class="navbar navbar-expand-lg navbar-light fix-top">
       <div class="container-fluid">
     <img class="text-left mx-3" src="img/mt.jpg" width="35" alt="">
-        <a class="navbar-brand text-white ps-3  " href="index.php?page=dash">Home</a>
+        <a class="navbar-brand text-white ps-3  " href="index.php?page=dash"><b>Home</b></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -64,16 +64,16 @@ include_once('views/header.php');
           </ul>
 
           <!-- Form Seacrh -->
-          <form class="d-flex" role="search">
+          <!-- <form class="d-flex" role="search">
             <input
               class="search form-control me-2"
               type="search"
               placeholder="Cari disini"
               aria-label="Search"
-            />
-            <button class="btn btn-outline-light me-2" type="button">
+            /> -->
+            <!-- <button class="btn btn-outline-light me-2" type="button">
               Pencarian
-            </button>
+            </button> -->
            
           </form>
         </div>
@@ -101,7 +101,7 @@ include_once('views/header.php');
           <a href="public/login_user.php" class="list-group-item btn rounded-pill  btn-outline-light">
             <b>Log In</b>
           </a>
-          <a href="index.php?page=signup" class="list-group-item btn rounded-pill btn-outline-light ms-5 ps-5">
+          <a href="public/login_user.php" class="list-group-item btn rounded-pill btn-outline-light ms-5 ps-5">
             Sign In
           </a>
           <a href="index.php?page=signup" class="list-group-item btn rounded-pill btn-outline-light ms-5 ps-5">
@@ -124,7 +124,7 @@ include_once('views/header.php');
          
 
         //   Data Klien
-        if ($page == 'klien') include 'pages/list_klien.php';
+        if ($page == 'klien') include 'public/pages/klien.php';
         if ($page == 'entrik') include 'pages/entriKlien.php';
         if ($page == 'editk') include 'pages/editKlien.php';
 
@@ -154,8 +154,8 @@ include_once('views/header.php');
         if ($page == 'contact') include 'public/pages/contact.php';
         if ($page == 'about') include 'public/pages/about.php';
 
-        // Sign In dan Sign Up for new member
-        if ($page == 'signup') include 'app/register.php';
+        // // Sign In dan Sign Up for new member
+        if ($page == 'signup') include 'register.php';
 
             
         ?>

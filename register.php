@@ -1,7 +1,7 @@
 <?php
 
 require_once "db.php";
-require_once "fungsi_user.php";
+require_once "app/fungsi_user.php";
 
 
 // valdation register
@@ -29,19 +29,22 @@ if( isset($_POST['submit']) ) {
 }
 
 
-// include_once "view/header.php";
+// include_once "public/views/header.php";
 
 ?>
 
 <h2>Daftar Member Baru Club </h2>
 
 <form action="register.php" method="post">
+
         <label for="">Nama</label><br>
-        <input type="text" name="username"><br><br>
+        <input type="text" name="username"><br>
 
         <label for="">Password</label><br>
         <input type="password" name="password"><br><br>
 
-        <input type="submit" name="submit" value="Login" id="">
+        <input type="submit" name="submit" value="Sign Up" id=""><br><br>
+    
+    
     </form>
 

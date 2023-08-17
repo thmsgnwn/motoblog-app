@@ -11,18 +11,18 @@ if( isset($_POST['submit']) ){
 
 ?>
 
-<h1>Entri Data Buku</h1>
-        <form method="POST" action="prosesProduk.php" enctype="multipart/form-data">
+<h2>Entri Data Produk</h2>
+        <form method="POST" action="pages/prosesProduk.php" enctype="multipart/form-data">
 
             <div class="mb-2">
                 <label class="form-label">Kode Seri Produk</label>
                 <input type="text" class="form-control" name="ks">
             </div>
 
-            <div class="mb-2">
+            <!-- <div class="mb-2">
                 <label class="form-label">Gambar</label>
                 <input type="file" class="form-control" name="gambar">
-            </div>
+            </div> -->
 
             <div class="mb-2">
                 <label class="form-label">Nama Produk</label>
@@ -33,9 +33,9 @@ if( isset($_POST['submit']) ){
                 <label class="form-label">Jenis Produk</label>
                 <select class="form-select" name="jp" aria-label="Default select example">
                     <option selected>-- Pilih Kategori --</option>
-                    <option value="Sistem Informasi">Asli</option>
-                    <option value="Ilmu Komputer">Tiruan</option>
-                    <option value="Buku Lainnya">Modifikasi</option>
+                    <option value="Original/Asli">Asli</option>
+                    <option value="KW/Tiruan">Tiruan</option>
+                    <option value="Modifikasi">Modifikasi</option>
                 </select>
             </div>
 
